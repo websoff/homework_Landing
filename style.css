@@ -2,7 +2,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: #926239;
 }
 header{
     background-image: url(http://traversymedia.com/downloads/assets/beachshowcase.jpg);
@@ -15,6 +14,7 @@ header{
     align-items: center;
     text-align: center;
     padding: 0 20px;
+    color: #926239;
 }
 h1{
     font-size: 55px;
@@ -32,4 +32,32 @@ button {
 button:hover{
     color: white;
     background-color: #926239;
+}
+.firstBlock{
+    padding: 20px;
+    background-color: #926239;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.SecondBlock{
+    padding: 20px;
+    background-color: rgb(236, 234, 234);
+    color: #926239;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.6;
+}
+.ThirdBlock{
+    display: flex;
+}
+.boxMiddle{
+    padding: 20px;
+    background-color: #fff;
+    color: #926239;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.6;
+    
 }
